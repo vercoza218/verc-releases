@@ -6,12 +6,13 @@ O código-fonte fica num repositório privado. Aqui ficam só os binários distr
 
 ## Para jogar
 
-1. Baixe o `Verc-windows.zip` da [release mais recente](https://github.com/vercoza218/verc-releases/releases/latest)
+1. **[Baixe o launcher](https://github.com/vercoza218/verc-releases/releases/latest/download/Verc-windows.zip)** (download direto, sempre a versão mais recente)
 2. Extraia a pasta `Verc`
-3. Rode **`VercLauncher.exe`** — ele verifica atualizações, baixa o que falta e inicia o jogo
+3. Rode **`VercLauncher.exe`** — ele baixa o jogo, verifica atualizações e inicia tudo
 
 ## Assets de cada release
 
-- `Verc-windows.zip` — pacote completo pra instalação nova (launcher + jogo)
-- `Verc.pck` — só os dados do jogo (o launcher baixa isso pra atualizar)
+- `Verc-windows.zip` — só o launcher (é o download do jogador)
+- `Verc.exe` — binário do jogo (o launcher baixa na 1ª vez)
+- `Verc.pck` — dados do jogo (o launcher baixa pra atualizar)
 - `version.json` — metadados da versão (hash de integridade + changelog)
